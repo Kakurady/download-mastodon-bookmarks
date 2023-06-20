@@ -1,0 +1,23 @@
+{
+  "name": "download-mastodon-bookmarks",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/load-bookmarks.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mastodon",
+    "bookmarks"
+  ],
+  "author": "Kakurady",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.4.0",
+    "csv-stringify": "^6.4.0",
+    "leaky-bucket": "^4.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1"
+  }
+}
